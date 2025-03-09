@@ -13,4 +13,4 @@ RUN pip install colorama
 EXPOSE 8000
 
 # Prevent the console recursion by not running the new console instance
-CMD ["python", "main.py", "no_console"]
+CMD ["python", "unit_converter.py"]
