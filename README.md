@@ -14,11 +14,11 @@ This is a Python-based unit converter application that provides conversions for 
 
     cd \Users\<your user>\Docker-application
     # For Linux: 
-    -cd using "/"
+    # cd using "/"
 
     docker-compose up
-    control c to stop the program for now
+    # control c to stop the program for now
 
     docker run -it docker-application-app
-    program should run
+    # program should run
 
