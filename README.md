@@ -1,14 +1,19 @@
 # Docker-Application
-This is a unit converter application that has been dockerized.
+# Unit Converter Application
 
-To build an image:
+This is a Python-based unit converter application that provides conversions for various measurements.
 
-    docker build -t unit-converter
+## Requirements
+- Python 3.10 or later
+- Docker (for containerization)
 
-Run the container:
+## Running the Application
 
-    docker run -it unit-converter
+    docker build -t unit_converter .
 
-To stop the container:
+    docker run -it unit_converter
 
-    docker stop <container_id>
+### Using Python (Without Docker)
+1. Install dependencies:
+   ```bash
+   pip install colorama
