@@ -24,7 +24,10 @@ def open_new_console():
         f.write("locked")
 
     # Open a new console:
-
+    if os.getenv("DOCKER") == "true":
+        print("Running in Docker. Skipping console opening.")
+        return
+        
     if sys.platform == "win32":
         os.system(f"start cmd /k python {sys.argv[0]} no_console")
     elif sys.platform == "darwin":
