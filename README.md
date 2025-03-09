@@ -10,19 +10,15 @@ This is a Python-based unit converter application that provides conversions for 
 
 ## Running the Application:
 
-    -git clone https://github.com/solarDev177/Docker-Application
+    git clone https://github.com/solarDev177/Docker-Application
 
-    -cd \Users\<your user>\Docker-application
+    cd \Users\<your user>\Docker-application
     # For Linux: 
     -cd using "/"
 
-    -docker-compose up
+    docker-compose up
     control c to stop the program for now
 
     docker run -it docker-application-app
     program should run
 
-### Using Python (Without Docker)
-1. Install dependencies:
-   ```bash
-   pip install colorama
