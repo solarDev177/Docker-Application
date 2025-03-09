@@ -25,8 +25,9 @@ def open_new_console():
 
     # Open a new console:
     if os.getenv("DOCKER") == "true":
-        print("Running in Docker. Skipping console opening.")
-        return
+    print("Running in Docker. Skipping console opening.")
+    input("Press Enter to exit...")  # Keeps the terminal open
+
         
     if sys.platform == "win32":
         os.system(f"start cmd /k python {sys.argv[0]} no_console")
