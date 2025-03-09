@@ -84,12 +84,13 @@ def mph_to_kmph(mph):
     return mph / 0.621371
 
 def main():
-
+    """
+    # If we want to open a new console, use this in main()
     if len(sys.argv) == 1:
         print("Opening a new console window...")
         open_new_console()
         return
-
+    """
         # If the new console is already open, the code proceeds here
     print("Welcome to the Unit Converter!")
     hub = str(input("Type any of these letters to select a function:\n" +
