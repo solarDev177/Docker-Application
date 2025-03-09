@@ -6,12 +6,21 @@ This is a Python-based unit converter application that provides conversions for 
 ## Requirements
 - Python 3.10 or later
 - Docker (for containerization)
+- GitBash (for cloning the repository)
 
-## Running the Application
+## Running the Application:
 
-    docker build -t unit_converter .
+    -git clone https://github.com/solarDev177/Docker-Application
 
-    docker run -it unit_converter
+    -cd \Users\<your user>\Docker-application
+    # For Linux: 
+    -cd using "/"
+
+    -docker-compose up
+    control c to stop the program for now
+
+    docker run -it docker-application-app
+    program should run
 
 ### Using Python (Without Docker)
 1. Install dependencies:
