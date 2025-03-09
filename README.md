@@ -10,6 +10,7 @@ This is a Python-based unit converter application that provides conversions for 
 
 ## Running the Application:
 
+    # Using the command prompt or powershell:
     git clone https://github.com/solarDev177/Docker-Application
 
     cd \Users\<your user>\Docker-application
