@@ -394,7 +394,7 @@ def main():
                             "Enter: "))
 
     # Clean up the lockfile on exit
-    cleanup_lockfile()
+    # cleanup_lockfile()
 
     print("Type 'exit' if on windows32 or linux consoles to close the console, and if on darwin, type "
           "osascript -e 'tell application \"Terminal\" to close (front window)'")
