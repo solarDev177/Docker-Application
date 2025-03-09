@@ -6,7 +6,7 @@
 from colorama import Fore, Style
 import os
 import sys
-
+"""
 LOCKFILE = "lockfile.txt"
 
 def open_new_console():
@@ -42,7 +42,7 @@ def cleanup_lockfile():
 
     if os.path.exists(LOCKFILE):
         os.remove(LOCKFILE)
-
+"""
 def is_float(value):
     try:
         float(value)
