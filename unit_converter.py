@@ -114,7 +114,7 @@ def main():
 
                 val = input("Enter meters to convert to feet: ")
                 if is_float(val):
-                    print(f"Conversion to feet is: {meters_to_feet(val)} feet.")
+                    print(f"Conversion to feet is: {meters_to_feet(float(val))} feet.")
                 else:
                     print(Fore.RED + 'Error: Invalid input. Value is not a decimal '
                                      'or integer. Restart the function.\n' + "----------" + Style.RESET_ALL)
